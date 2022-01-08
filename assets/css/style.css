@@ -1,0 +1,168 @@
+body {
+    color: #566787;
+    background: #eef5fa;
+    font-size: 14px;
+}
+
+.bg-dark {
+    background: #091023 !important;
+}
+
+.header-border {
+    border-bottom: 2px solid #d30000;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+#sidebar a {
+    color: #c2c7d0;
+}
+
+#sidebar {
+    width: 80%;
+    height: 100%;
+}
+
+#sidebar .avatar {
+    width: 80px;
+    height: 80px;
+}
+
+.nav-link:hover, .nav-link:active, .nav-link:focus {
+    color: #fff !important;
+    background-color: #494e53 !important;
+}
+
+.text-red {
+    color: #d30000;
+}
+
+.background-red {
+    background-color: #d30000;
+}
+
+nav .container {
+    font-weight: 600;
+}
+
+.navbar-brand {
+    color: #d30000 !important;
+    font-size: 30px !important;
+    font-weight: 800;
+}
+
+#content {
+    background-color: #fff;
+    padding: 20px;
+    margin-left: -60px;
+    color: #000000;
+    line-height: 1.8;
+}
+
+/* CARD-NEW */
+.wrap-card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.wrap-card .card-effect  {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.card-body {
+    transition: all 0.4s ease;   
+}
+
+.wrap-card:hover .card-body a {
+    color: #000
+}
+
+.wrap-card:hover .card-effect{
+    opacity: 0.8;
+}
+/* end */
+
+.search-input {
+    border-radius: 50px 0 0 50px;
+}
+
+.search-btn {
+    border-radius: 0 50px 50px 0;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+
+.table-wrapper {
+    background: #fff;
+    margin-left: -90px;
+    padding: 20px 25px;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+table.table tr th, table.table tr td {
+    border-color: #e9e9e9;
+    padding: 12px 15px;
+    vertical-align: middle;
+}
+
+table.table tr th:first-child {
+    width: 60px;
+}
+
+table.table tr th:last-child {
+    width: 100px;
+}
+
+table.table td a:hover {
+    color: #2196F3;
+}
+table.table td a.settings {
+    color: #2196F3;
+}
+table.table td a.delete {
+    color: #F44336;
+}
+table.table td i {
+    font-size: 25px;
+}
+table.table .avatar {
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.modalPic{
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.user-detail:hover {
+    cursor: pointer;
+}
+
+#modalFile{
+    display: none !important;
+}
+  

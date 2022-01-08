@@ -1,0 +1,68 @@
+
+html,body{
+background-image: url('https://scontent.fhan3-4.fna.fbcdn.net/v/t1.6435-9/54428354_2368429596722282_384492507494350848_n.jpg?_nc_cat=104&cb=c578a115-c1c39920&ccb=1-5&_nc_sid=e3f864&_nc_ohc=Gn5z7gdUtAcAX-XiwJZ&_nc_ht=scontent.fhan3-4.fna&oh=3608b6c85419a523e3f67b5762090f2e&oe=61C892E9');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+color: #000000;
+}
+
+.text-red {
+    color: #d30000;
+}
+
+.container-fluid{
+height: 100%;
+align-content: center;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: #fff !important;
+}
+
+.card-header {
+    background-color: #fff !important; 
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #d30000;
+color: white;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: white;
+background-color: #d30000;
+width: 100px;
+}
+
+.login_btn:hover{
+color: #d30000;
+background-color: white;
+border: 1px solid #d30000;
+}
+
+
+.links a{
+margin-left: 4px;
+}
